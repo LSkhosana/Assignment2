@@ -1,3 +1,15 @@
+ const heroContent = document.querySelector('.Hero-content');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        heroContent.classList.add('animate');
+      }
+    });
+  });
+
+  observer.observe(heroContent);
+
 
 const cardsContainer = document.querySelector(".card-carousel");
 const cardsController = document.querySelector(".card-carousel + .card-controller")
