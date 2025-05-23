@@ -280,7 +280,25 @@ textarea{
 .Contact-content h1{
     font-size: 50px;
 }
+.text h3{
+  
+    font-size: 25px;
+   
+}
+.Services-content h1{
+    font-size: 36px;
+}
 
+.text p{
+  
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.Services{
+    gap: 80px;
+}
 }
 
 

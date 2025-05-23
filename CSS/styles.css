@@ -195,8 +195,8 @@ line-height: normal;
     gap: 40px;
 }
 .circle{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: white;
     border: 0;
     border-radius: 50%;
@@ -206,8 +206,8 @@ line-height: normal;
 }
 
 .circle-gradient{
-    width: 177.966px;
-    height: 177.966px;
+    width: 140px;
+    height: 140px;
     border: 0;
     border-radius: 50%;
     background: linear-gradient(180deg, #DEDEDE 0%, #FFF 100%);
@@ -221,7 +221,20 @@ line-height: normal;
     justify-content: center;
 }
 
+#code{
+    width: 90px;
+    height: 90px;
+}
 
+#ui{
+    width: 98px;
+    height: 98px;
+}
+
+#kwh{
+    height: 105px;
+    width: 105px;
+}
 .service-1,
 .service-2,
 .service-3 {
@@ -249,6 +262,7 @@ line-height: normal;
   .service-3 {
     flex: 1 1 100%; /* 1 column */
     max-width: 100%;
+    gap: 10px;
   }
 }
 .text h3{
