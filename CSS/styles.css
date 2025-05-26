@@ -50,7 +50,7 @@ nav{
     margin-right: 35px;
     font-family: "Inter", sans-serif;
     transition: color 0.3s ease;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .links a:hover {
@@ -128,7 +128,7 @@ nav{
 }
 
 .Hero-btn{
-    margin-top: 157px;
+    margin-top: 117px;
     margin-bottom: 157px;
     display: flex;
     width: 454px;
@@ -335,10 +335,12 @@ line-height: normal;
     color: #FFF;
     text-align: center;
     font-family: Poppins;
-    font-size: 170px;
+    font-size: 130px;
     font-style: normal;
     font-weight: 600;
     line-height: 101.79%; /* 193.401p*/
+    margin-bottom: 0;
+    padding-bottom: 60px;
 }
 .paragraph2{
 display: flex;
@@ -346,7 +348,6 @@ width: 920px;
 padding: 20px 24px;
 justify-content: center;
 align-items: center;
-gap: 10px;
 border-radius: 12px;
 border: 1px solid var(--Glass-Stroke, rgba(255, 231, 231, 0.46));
 background: rgba(255, 255, 255, 0.05);
@@ -365,11 +366,11 @@ backdrop-filter: blur(25px);
 }
 
 .About-btn{
-    margin-top: 140px;
+    margin-top: 110px;
     margin-bottom: 140px;
     display: flex;
-    width: 440px;
-    height: 50px;
+     width: 454px;
+    height: 68px;
     min-width: 140px;
     max-width: 640px;
     padding: 10px 14px;
