@@ -443,7 +443,7 @@ height: 1100px;
 form{
     padding: 50px;
     width: 100%;
-    max-width: 1100px;
+    max-width: 900px;
     border-radius: 18px;
     border: 1px solid var(--Glass-Stroke, rgba(255, 231, 231, 0.46));
     background: rgba(255, 255, 255, 0.05);
@@ -455,9 +455,9 @@ form{
     label{
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 155%; /* 31px */
     }
 
@@ -519,12 +519,13 @@ form{
  }
  .footer-content img{
     padding-bottom: 60px;
+    width: 625px;
 }
 
  .footer-nav{
     display: flex;
-    border-top: 2px solid #5390F4;
-    border-bottom: 2px solid #5390F4;
+    border-top: 1px solid #5390F4;
+    border-bottom: 1px solid #5390F4;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 50px;
@@ -536,7 +537,7 @@ form{
     color: #5390F4;
     font-feature-settings: 'liga' off, 'clig' off;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 104.167% */
@@ -545,7 +546,7 @@ form{
  .info p{
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px; /* 104.167% */
@@ -559,11 +560,15 @@ form{
     gap: 20px;
 }
 
+.sm-links img{
+    width: 32px;
+}
+
 .legal a{
     text-decoration: none;
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px; /* 104.167% */
