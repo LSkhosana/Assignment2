@@ -1,0 +1,20 @@
+.about-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-heading h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101.79%; /* 193.401px */
+}
+
+.about-heading span{
+    color: #4A8AF3;
+}
